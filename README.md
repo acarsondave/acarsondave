@@ -1,3 +1,4 @@
+<img src="1715630192926.jpeg" alt="GitHub Banner" width="100%" />
 # 💫 About Me:
 🔭I am currently learning and mastering advanced data structures and algorithms<br>👯 Also working on an AI recommendation platform for students and would like to collaborate with people on this<br>💹 Venturing into Algo forex trading for some extra passive income<br>⚡ Fun fact, a group of flamingos is called a "flamboyance"! 🦩*random 😁*
 
