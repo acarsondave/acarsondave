@@ -4,7 +4,7 @@
 🔭I am currently learning and mastering advanced data structures and algorithms<br>👯 Also working on an AI recommendation platform for students and would like to collaborate with people on this<br>💹 Venturing into Algo forex trading for some extra passive income<br>⚡ Fun fact, a group of flamingos is called a "flamboyance"! 🦩*random 😁*
 
 
-## 🌐 Socials:
+## 🌐 Social:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/uche-chimdindu-david) 
 
 # 💻 Tech Stack:
