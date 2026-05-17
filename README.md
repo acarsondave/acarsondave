@@ -1,4 +1,4 @@
-<img src="1715630192926.jpeg" alt="GitHub Banner" width="100%" />
+<img src="linkedin-uche.png" alt="GitHub Banner" width="100%" />
 
 # 💫 Hello World!, I'm David Uche 👋🏼
 ### Backend & Full-Stack Engineer | SaaS Builder
