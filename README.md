@@ -1,37 +1,53 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg" />
-  <img src="banner-light.svg" alt="David Uche, mobile and product engineer" width="100%" />
-</picture>
+<a href="https://github.com/acarsondave"><img src="assets/hero.svg" alt="David Uche, mobile and product engineer" width="100%" /></a>
 
-I'm David (Acarson). I've been writing software for 7+ years, mostly mobile apps and the backends behind them. On most products I own the whole thing: the API, the database, payments, the app itself and the App Store release.
+<p align="center">
+  <a href="https://linkedin.com/in/uche-chimdindu-david"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:acarsondev@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="david-uche-resume.pdf"><img src="https://img.shields.io/badge/Résumé-7C5CFF?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Résumé" /></a>
+  <a href="https://apps.apple.com/us/app/pingcharm-rizz-reply/id6759834337"><img src="https://img.shields.io/badge/On_the_App_Store-111111?style=for-the-badge&logo=apple&logoColor=white" alt="App Store" /></a>
+</p>
 
-Right now I lead mobile at **Moneque**, a Naira fintech wallet. I also run **ACARSON LLC**, a small US company that ships my own products.
+I've been writing software for 7+ years, mostly mobile apps and the backends behind them. On most products I own the whole thing: the API, the database, payments, the app itself and the App Store release. I lead mobile at **Moneque** and run **ACARSON LLC**, a small US company that ships my own products.
 
-### What I'm working on
+<br />
+<img src="assets/h-building.svg" width="100%" alt="What I'm building" />
 
-- **[Pingcharm](https://apps.apple.com/us/app/pingcharm-rizz-reply/id6759834337)** is an AI reply assistant on the App Store. The app is React Native (Expo). It includes a custom iOS keyboard, written in Swift, that reads the conversation with on-device OCR. The TypeScript API runs on Cloudflare Workers and falls back across several LLM providers.
-- **Moneque** is a Flutter wallet for bank transfers, bills, virtual dollar cards, crypto and KYC. Money moves through a double-entry Postgres ledger with idempotency keys, so a retried transfer or a replayed webhook never posts twice.
-- **RealtyConnect** is a property app built in Flutter, with a TypeScript API on Workers (D1, R2 and Queues). I built its "smart paste", which turns a messy WhatsApp listing into a typed form. On a set of held-out test messages, rules alone got the hardest field right 55% of the time; with an LLM pass added, it got all of them.
-- **[MiniRec](https://minirecc.com)** recommends schools and courses. It runs on Next.js, Prisma, PostgreSQL and Redis workers, with Paystack and Stripe for billing.
-- **Foldbooth** is a party camera app in Flutter with a native Swift camera plugin. It's in TestFlight now.
+<table>
+  <tr>
+    <td width="50%"><a href="https://apps.apple.com/us/app/pingcharm-rizz-reply/id6759834337"><img src="assets/card-pingcharm.svg" width="100%" alt="Pingcharm: AI reply assistant with a custom iOS keyboard" /></a></td>
+    <td width="50%"><img src="assets/card-moneque.svg" width="100%" alt="Moneque: Naira wallet on a double-entry Postgres ledger" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/card-realtyconnect.svg" width="100%" alt="RealtyConnect: property app with smart paste" /></td>
+    <td width="50%"><a href="https://minirecc.com"><img src="assets/card-minirec.svg" width="100%" alt="MiniRec: school and course recommendations" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/card-foldbooth.svg" width="100%" alt="Foldbooth: two-sided party photo booth" /></td>
+    <td width="50%"><a href="https://github.com/acarsondave/mirra"><img src="assets/card-mirra.svg" width="100%" alt="mirra: modern HTTrack for the command line" /></a></td>
+  </tr>
+</table>
 
-### Open source
+<img src="assets/h-oss.svg" width="100%" alt="Open source" />
 
-- **[mirra](https://github.com/acarsondave/mirra)** downloads a website for offline browsing. It's a modern take on HTTrack that also copes with JavaScript apps and Cloudflare-protected sites.
-- **[appstore-checklist](https://github.com/acarsondave/appstore-checklist)** is the list I go through before submitting to App Review, written up from rejections I've had.
-- **[daily-fret](https://github.com/acarsondave/daily-fret)** tracks guitar practice.
+- **[mirra](https://github.com/acarsondave/mirra)**: download a website for offline browsing, including JavaScript apps and sites behind Cloudflare.
+- **[appstore-checklist](https://github.com/acarsondave/appstore-checklist)**: what I check before every App Review submission, learned from real rejections.
+- **[daily-fret](https://github.com/acarsondave/daily-fret)**: a guitar practice tracker.
 
-Most of my day-to-day work happens in private repos, so the contribution graph is busier than the public repo list.
+<img src="assets/h-stack.svg" width="100%" alt="Stack" />
 
-### Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,swift,react,ts,nodejs,python,fastapi&theme=dark" alt="Flutter, Dart, Swift, React Native, TypeScript, Node.js, Python, FastAPI" /><br />
+  <img src="https://skillicons.dev/icons?i=nextjs,cloudflare,postgres,redis,prisma,firebase,docker,githubactions&theme=dark" alt="Next.js, Cloudflare Workers, PostgreSQL, Redis, Prisma, Firebase, Docker, GitHub Actions" />
+</p>
 
-**Mobile:** Flutter, Dart (Riverpod), React Native (Expo), Swift<br>
-**Backend:** TypeScript, Node.js, Python (FastAPI), Cloudflare Workers, PostgreSQL, Redis<br>
-**Shipping:** GitHub Actions, Xcode Cloud, TestFlight, RevenueCat, Mixpanel, Crashlytics
+<img src="assets/h-activity.svg" width="100%" alt="Activity" />
 
-### Contact
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=acarsondave&theme=github_dark" height="170" alt="Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=acarsondave&theme=github_dark" height="170" alt="GitHub stats" />
+</p>
 
-[LinkedIn](https://linkedin.com/in/uche-chimdindu-david) · acarsondev@gmail.com
+<sub>Most of my work lives in private repos, so the graph below is busier than the public repo list.</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/acarsondave/acarsondave/output/github-snake-dark.svg" />

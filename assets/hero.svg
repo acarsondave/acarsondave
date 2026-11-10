@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340">
+<defs>
+  <radialGradient id="g1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7c5cff" stop-opacity="0.55"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ff7a59" stop-opacity="0.45"/><stop offset="1" stop-color="#ff7a59" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g3" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#ffffff" fill-opacity="0.07"/></pattern>
+  <linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c9c2ff"/></linearGradient>
+  <clipPath id="clip"><rect width="1280" height="340" rx="20"/></clipPath>
+  <style>
+    .b1{animation:d1 14s ease-in-out infinite alternate} .b2{animation:d2 18s ease-in-out infinite alternate} .b3{animation:d3 16s ease-in-out infinite alternate}
+    @keyframes d1{to{transform:translate(140px,40px)}} @keyframes d2{to{transform:translate(-160px,-30px)}} @keyframes d3{to{transform:translate(90px,-50px)}}
+    .r{opacity:0;animation:cyc 12s infinite} .r2{animation-delay:4s} .r3{animation-delay:8s}
+    @keyframes cyc{0%{opacity:0;transform:translateY(8px)}4%,30%{opacity:1;transform:none}34%,100%{opacity:0;transform:translateY(-8px)}}
+    .pulse{animation:p 2s ease-out infinite;transform-origin:1003px 74px} @keyframes p{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+    .caret{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}
+  </style>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1280" height="340" fill="#0a0c14"/>
+  <circle class="b1" cx="980" cy="60" r="320" fill="url(#g1)"/>
+  <circle class="b2" cx="1180" cy="320" r="260" fill="url(#g2)"/>
+  <circle class="b3" cx="240" cy="360" r="300" fill="url(#g3)"/>
+  <rect width="1280" height="340" fill="url(#dots)"/>
+  <rect x="0.5" y="0.5" width="1279" height="339" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</g>
+<text x="88" y="98" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="19" fill="#9aa3b8" letter-spacing="1">~/acarsondave <tspan fill="#7c5cff">$</tspan> whoami<tspan class="caret" fill="#c9c2ff"> ▍</tspan></text>
+<text x="84" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="-2" fill="url(#name)">David Uche</text>
+<text x="88" y="232" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif" font-size="27" font-weight="500" fill="#d4d8e4">Mobile &amp; product engineer. I ship whole products, end to end.</text>
+<g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="19" fill="#9aa3b8">
+  <text class="r" x="88" y="284">Flutter · Swift · React Native <tspan fill="#5b6378">— apps people pay for</tspan></text>
+  <text class="r r2" x="88" y="284">TypeScript on Cloudflare Workers · Postgres <tspan fill="#5b6378">— the APIs behind them</tspan></text>
+  <text class="r r3" x="88" y="284">Ledgers · payments · App Store releases <tspan fill="#5b6378">— the hard parts</tspan></text>
+</g>
+<g>
+  <rect x="984" y="54" width="208" height="40" rx="20" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+  <circle class="pulse" cx="1003" cy="74" r="5" fill="#3fb950"/>
+  <circle cx="1003" cy="74" r="5" fill="#3fb950"/>
+  <text x="1018" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#e6edf3">Building · Lagos, NG</text>
+</g>
+<text x="1192" y="290" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="16" fill="#5b6378">7+ yrs · ACARSON LLC</text>
+</svg>

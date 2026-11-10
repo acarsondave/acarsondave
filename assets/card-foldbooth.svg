@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="236" viewBox="0 0 600 236">
+<defs>
+  <linearGradient id="t" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06b6d4"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+  <radialGradient id="glow" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#06b6d4" stop-opacity="0.22"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0"/></radialGradient>
+  <clipPath id="c"><rect width="600" height="236" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#c)"><rect width="600" height="236" fill="#0d1018"/><rect width="600" height="236" fill="url(#glow)"/></g>
+<rect x="0.5" y="0.5" width="599" height="235" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+<rect x="32" y="30" width="52" height="52" rx="14" fill="url(#t)"/>
+<text x="58" y="66" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="#fff">F</text>
+<text x="100" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#f0f3f8">Foldbooth</text>
+<rect x="100" y="66" width="126" height="22" rx="11" fill="#06b6d4" fill-opacity="0.14"/>
+<text x="163.0" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#06b6d4">In TestFlight</text>
+<text x="566" y="56" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif" font-size="22" fill="#5b6378">↗</text>
+<text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif" font-size="20" fill="#c3cad8"><tspan x="32" y="124">Two-sided party photo booth: one iPhone, two</tspan><tspan x="32" y="153">screens, with a native Swift camera plugin.</tspan></text>
+<rect x="32" y="180" width="92" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.10"/><text x="78.0" y="200" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" fill="#aeb6c8">Flutter</text><rect x="132" y="180" width="74" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.10"/><text x="169.0" y="200" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" fill="#aeb6c8">Swift</text><rect x="214" y="180" width="138" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.10"/><text x="283.0" y="200" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" fill="#aeb6c8">AVFoundation</text>
+</svg>
