@@ -1,47 +1,39 @@
-<img src="linkedin-uche.png" alt="GitHub Banner" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg" />
+  <img src="banner-light.svg" alt="David Uche, mobile and product engineer" width="100%" />
+</picture>
 
-# 💫 Hello World!, I'm David Uche 👋🏼
-### Backend & Full-Stack Engineer | SaaS Builder
+I'm David (Acarson). I've been writing software for 7+ years, mostly mobile apps and the backends behind them. On most products I own the whole thing: the API, the database, payments, the app itself and the App Store release.
 
-I am a product-minded Backend Engineer specializing in building robust APIs, scalable microservices, and AI/LLM-driven architectures. I thrive on turning complex workflows into clean, maintainable automation pipelines.
+Right now I lead mobile at **Moneque**, a Naira fintech wallet. I also run **ACARSON LLC**, a small US company that ships my own products.
 
----
+### What I'm working on
 
-### 🚀 Why is my contribution graph green but my repositories private?
-The vast majority of my daily development happens inside closed-source, proprietary codebases for production applications I am actively building and scaling:
+- **[Pingcharm](https://apps.apple.com/us/app/pingcharm-rizz-reply/id6759834337)** is an AI reply assistant on the App Store. The app is React Native (Expo). It includes a custom iOS keyboard, written in Swift, that reads the conversation with on-device OCR. The TypeScript API runs on Cloudflare Workers and falls back across several LLM providers.
+- **Moneque** is a Flutter wallet for bank transfers, bills, virtual dollar cards, crypto and KYC. Money moves through a double-entry Postgres ledger with idempotency keys, so a retried transfer or a replayed webhook never posts twice.
+- **RealtyConnect** is a property app built in Flutter, with a TypeScript API on Workers (D1, R2 and Queues). I built its "smart paste", which turns a messy WhatsApp listing into a typed form. On a set of held-out test messages, rules alone got the hardest field right 55% of the time; with an LLM pass added, it got all of them.
+- **[MiniRec](https://minirecc.com)** recommends schools and courses. It runs on Next.js, Prisma, PostgreSQL and Redis workers, with Paystack and Stripe for billing.
+- **Foldbooth** is a party camera app in Flutter with a native Swift camera plugin. It's in TestFlight now.
 
-* **MiniRec:** An AI-driven SaaS platform architected with microservices, multi-LLM support, and real-time student assessments. 
-* **Pingcharm:** A mobile application where I manage the cloud infrastructure, asynchronous backends, and custom internal asset generation tools.
+### Open source
 
-My commitment history reflects live, production-grade infrastructure optimization, database management, and active feature deployment.
+- **[mirra](https://github.com/acarsondave/mirra)** downloads a website for offline browsing. It's a modern take on HTTrack that also copes with JavaScript apps and Cloudflare-protected sites.
+- **[appstore-checklist](https://github.com/acarsondave/appstore-checklist)** is the list I go through before submitting to App Review, written up from rejections I've had.
+- **[daily-fret](https://github.com/acarsondave/daily-fret)** tracks guitar practice.
 
----
+Most of my day-to-day work happens in private repos, so the contribution graph is busier than the public repo list.
 
-## 🌐 Connect With Me:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/uche-chimdindu-david) 
+### Stack
 
-## 💻 Core Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+**Mobile:** Flutter, Dart (Riverpod), React Native (Expo), Swift<br>
+**Backend:** TypeScript, Node.js, Python (FastAPI), Cloudflare Workers, PostgreSQL, Redis<br>
+**Shipping:** GitHub Actions, Xcode Cloud, TestFlight, RevenueCat, Mixpanel, Crashlytics
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+### Contact
 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+[LinkedIn](https://linkedin.com/in/uche-chimdindu-david) · acarsondev@gmail.com
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/acarsondave/acarsondave/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/acarsondave/acarsondave/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhacarsondavethub-snake.svg" />
+  <img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/acarsondave/acarsondave/output/github-snake.svg" />
 </picture>
-
-## 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=acarsondave&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=acarsondave&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=acarsondave&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-[![](https://visitcount.itsvg.in/api?id=acarsondave&icon=0&color=0)](https://visitcount.itsvg.in)
