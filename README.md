@@ -16,12 +16,12 @@ I build mobile apps and the backends behind them, and usually own the whole prod
 </picture>
 
 <p>
-  <a href="https://apps.apple.com/us/app/pingcharm-rizz-reply/id6759834337"><img src="assets/card-pingcharm.svg" width="49%" alt="Pingcharm: AI reply assistant with its own iOS keyboard. App Store." /></a>
-  <a href="https://play.google.com/store/apps/details?id=app.moneque.wallet"><img src="assets/card-moneque.svg" width="49%" alt="Moneque: Naira wallet for transfers, bills and dollar cards. Google Play." /></a>
-  <a href="https://minirecc.com"><img src="assets/card-minirec.svg" width="49%" alt="MiniRec: matches students to schools and courses." /></a>
-  <img src="assets/card-realtyconnect.svg" width="49%" alt="RealtyConnect: property app that turns WhatsApp listings into forms." />
-  <img src="assets/card-foldbooth.svg" width="49%" alt="Foldbooth: party camera with one shared album per event." />
-  <a href="https://github.com/acarsondave/mirra"><img src="assets/card-mirra.svg" width="49%" alt="mirra: copies any website for offline browsing." /></a>
+  <a href="https://apps.apple.com/us/app/pingcharm-rizz-reply/id6759834337"><img src="assets/card-pingcharm.svg" width="49%" alt="Pingcharm: AI dating assistant with its own iOS and Android keyboard. App Store." /></a>
+  <a href="https://play.google.com/store/apps/details?id=app.moneque.wallet"><img src="assets/card-moneque.svg" width="49%" alt="Moneque: Naira wallet for transfers, bills, dollar cards and crypto. Google Play." /></a>
+  <a href="https://minirecc.com"><img src="assets/card-minirec.svg" width="49%" alt="MiniRec: matches students to schools and courses based on personality." /></a>
+  <img src="assets/card-realtyconnect.svg" width="49%" alt="RealtyConnect: Hong Kong property app for clients and agents, with smart AI features." />
+  <img src="assets/card-foldbooth.svg" width="49%" alt="Foldbooth: your phone becomes the photo booth; one scan and every guest leaves with photos." />
+  <a href="https://github.com/acarsondave/mirra"><img src="assets/card-mirra.svg" width="49%" alt="mirra: saves whole websites to browse offline, even JavaScript apps and bot-protected sites." /></a>
 </p>
 
 <picture>
@@ -29,7 +29,7 @@ I build mobile apps and the backends behind them, and usually own the whole prod
   <img src="assets/h-oss-light.svg" height="40" alt="Open source" />
 </picture>
 
-- **[mirra](https://github.com/acarsondave/mirra)**: copies websites for offline browsing, including JavaScript apps and sites behind Cloudflare.
+- **[mirra](https://github.com/acarsondave/mirra)**: saves whole websites to browse offline, even JavaScript apps and bot-protected sites.
 - **[anti-bot](https://github.com/acarsondave/anti-bot)**: a Cloudflare Workers gateway that screens out bots.
 - **[advanced-email-bot](https://github.com/acarsondave/advanced-email-bot)**: a terminal email sender with per-domain translation.
 - **[appstore-checklist](https://github.com/acarsondave/appstore-checklist)**: what I check before every App Review submission.
