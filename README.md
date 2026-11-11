@@ -30,6 +30,8 @@ I've been writing software for 7+ years, mostly mobile apps and the backends beh
 <img src="assets/h-oss.svg" width="100%" alt="Open source" />
 
 - **[mirra](https://github.com/acarsondave/mirra)**: download a website for offline browsing, including JavaScript apps and sites behind Cloudflare.
+- **[anti-bot](https://github.com/acarsondave/anti-bot)**: a Cloudflare Workers gateway that screens out bots with a JavaScript interstitial and request fingerprinting.
+- **[advanced-email-bot](https://github.com/acarsondave/advanced-email-bot)**: a terminal email sender with per-TLD translation, bounce cleanup and a sent archive.
 - **[appstore-checklist](https://github.com/acarsondave/appstore-checklist)**: what I check before every App Review submission, learned from real rejections.
 - **[daily-fret](https://github.com/acarsondave/daily-fret)**: a guitar practice tracker.
 
