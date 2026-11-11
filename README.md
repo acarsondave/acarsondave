@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://linkedin.com/in/uche-chimdindu-david"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:acarsondev@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="david-uche-resume.pdf"><img src="https://img.shields.io/badge/Résumé-7C5CFF?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Résumé" /></a>
+  <a href="david-uche-resume.pdf"><img src="https://img.shields.io/badge/Résumé-E2552B?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Résumé" /></a>
   <a href="https://apps.apple.com/us/app/pingcharm-rizz-reply/id6759834337"><img src="https://img.shields.io/badge/On_the_App_Store-111111?style=for-the-badge&logo=apple&logoColor=white" alt="App Store" /></a>
 </p>
 
